@@ -34,6 +34,12 @@ div p{
     align-items: center;
     justify-content: center;
 }
+@media(max-width: 414px){
+    .full{
+        flex-direction: column;
+    }
+}
+
 
 .bg_subtitle{
     margin-top: -100vh;
