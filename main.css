@@ -33,7 +33,9 @@ div p{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: .5em;
 }
+
 @media(max-width: 414px){
     .full{
         flex-direction: column;
@@ -42,7 +44,11 @@ div p{
 
 
 .bg_subtitle{
-    margin-top: -100vh;
+    margin-top: -100vh;   
+}
+
+.relative{
+    position: relative;
 }
 
 .bg{
