@@ -36,9 +36,16 @@ div p{
     gap: .5em;
 }
 
+.full img{
+    max-width: 100%;
+}
+
 @media(max-width: 414px){
     .full{
         flex-direction: column;
+    }
+    .xs-reverse{
+        flex-direction: column-reverse;
     }
 }
 
@@ -89,6 +96,22 @@ div p{
     box-sizing: border-box;
 }
 
+.bg_color_black_op{
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    padding: 1.5em;
+    z-index: 2;
+}
+
+.bg_color_white{
+    background-color: white;
+    color: black;
+    padding: 1.5em;
+    z-index: 2;
+    box-sizing: border-box;
+    border: 2px black solid;
+}
+
 .bg_color_blue{
     background-color:#193d5a;
     color: white;
@@ -97,12 +120,7 @@ div p{
 }
 
 
-.bg_color_black_op{
-    background-color: rgba(0,0,0,.5);
-    color: white;
-    padding: 1.5em;
-    z-index: 2;
-}
+
 
 .bouble{
     border-radius: 50%;
