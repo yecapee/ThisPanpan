@@ -14,7 +14,11 @@
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
     <script>
         (function () {
-            const locomotiveScroll = new LocomotiveScroll();
+            const locomotiveScroll = new LocomotiveScroll({
+                mobile: {
+                    smooth: true
+                },
+            });
         })();
     </script>
     <main style="height: 150vh;">
