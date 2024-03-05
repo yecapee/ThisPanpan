@@ -1,0 +1,71 @@
+
+html {
+  font-family: "Noto Sans TC", sans-serif;
+  font-optical-sizing: auto;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.full{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg_subtitle{
+    margin-top: -100vh;
+}
+
+.bg{
+    overflow: hidden;
+}
+
+.bg img{
+    object-fit: cover;
+}
+
+.xs{
+
+    font-weight: 200;
+}
+
+
+.m{
+    font-weight: 500;
+}
+
+.xl{
+    font-weight: 900;
+}
+
+.c-scroll-rotate {
+    transform: rotate(2turn) !important;
+    transition: transform 0.75s cubic-bezier(0.38, 0.005, 0.215, 1);
+}
+
+
+.bg_color_black{
+    background-color: black;
+    color: white;
+    padding: 1.5em;
+    z-index: 2;
+}
+
+.bg_color_black_op{
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    padding: 1.5em;
+    z-index: 2;
+}
