@@ -17,7 +17,18 @@ p{
     line-height: 1.5em;
 }
 
+div{
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.5em; 
+}
+
+div p{
+    font-size: 1em;
+}
+
 .full{
+    width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -32,8 +43,10 @@ p{
     overflow: hidden;
 }
 
-.bg img{
+.bg img, .bg iframe{
     object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .xs{
@@ -61,11 +74,24 @@ p{
     color: white;
     padding: 1.5em;
     z-index: 2;
+    box-sizing: border-box;
 }
+
+.bg_color_blue{
+    background-color:#193d5a;
+    color: white;
+    padding: 1.5em;
+    z-index: 2;
+}
+
 
 .bg_color_black_op{
     background-color: rgba(0,0,0,.5);
     color: white;
     padding: 1.5em;
     z-index: 2;
+}
+
+.bouble{
+    border-radius: 50%;
 }
