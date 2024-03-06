@@ -47,6 +47,19 @@ div p{
     gap: .5em;
 }
 
+.top{
+    align-items: start;
+}
+
+.half{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+}
+
 .full img{
     max-width: 100%;
 }
