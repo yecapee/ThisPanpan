@@ -28,6 +28,10 @@ div{
     display: flex;
 }
 
+section{
+    border: 0px;
+}
+
 div p{
     font-size: 1em;
 }
@@ -68,7 +72,7 @@ div p{
     display: none;
 }
 
-@media(max-width: 414px){
+@media(max-width: 640px){
     .full{
         flex-direction: column;
     }
